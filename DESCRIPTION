@@ -1,0 +1,16 @@
+Package: flexClust
+Title: Flexible and Parsimonious Modeling Strategy for Clustered Data Analysis
+Version: 0.1.0
+Authors@R: 
+    person(given = "Youquan",
+           family = "Pei",
+           role = c("aut", "cre"),
+           email = "pyqpinbo@gmail.com")
+Description: Provides a flexible and parsimonious modeling strategy for clustered data analysis, 
+    enabling users to explore, visualize, and model clustered datasets effectively.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+
