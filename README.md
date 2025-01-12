@@ -214,7 +214,7 @@ beta2_est <- rowMeans(beta[, which(membership2 == 2), drop = FALSE])
 beta3_est <- rowMeans(beta[, which(membership2 == 3), drop = FALSE])
 
 # Define the true values
-beta1_true <- -0.8 * (1 - y0^2) / (1 + y0^2)
+beta1_true <- -0.8 * (1 - x0^2) / (1 + x0^2)
 beta2_true <- 2 * cos(pi * x0 / 2) + 1.8 * sin(pi * x0 / 3)
 beta2_true <- beta2_true - mean(beta2_true)
 beta3_true <- 1.5 * sin(pi * x0 / 4) - 1.2 * cos(pi * x0 / 3)
